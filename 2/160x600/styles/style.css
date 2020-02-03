@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+}
+body {
+    margin: 0px;
+}
+@font-face {
+    font-family: 'BrandonGrotesque-Regular';
+    src: url('../fonts/BrandonGrotesque-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: bold;
+}
+#ad {
+    display: block;
+    border: rgb(145, 153, 153) 1px solid;
+    overflow: hidden;
+    width: 158px;
+    height: 598px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+}
+#banner {
+    position: absolute;
+    display: block;
+    width: 158px;
+    height: 598px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+#firstImage{
+    position: absolute;
+    display: block;
+    top: -201px;
+    left: 0px;
+}
+}
+#secondImage{
+    position: absolute;
+    display: block;
+    top: -201px;
+    left: 0px;
+}
+#overlayImage{
+    position: absolute;
+    display: block;
+    width: 158px;
+    height: 598px;
+    background-image: url(../images/overlayImage1.png);
+}
+#anim1{
+    position: absolute;
+    display: block;
+    width: 158px;
+    height: 598px;
+    background-image: url(../images/anim1.png);
+    opacity: 1;   
+}
+#anim2{
+    position: absolute;
+    display: block;
+    width: 158px;
+    height: 598px;
+    background-image: url(../images/anim2.png);
+    opacity: 0;   
+}
+#anim3{
+    position: absolute;
+    display: block;
+    width: 158px;
+    height: 598px;
+    background-image: url(../images/anim3.png);
+    opacity: 0;   
+}
+a{
+    width: 160px;
+    height: 600px;
+    position: absolute;
+    right:0px;
+    bottom: 0px;
+}
+#TimeDiv{
+position: absolute;
+    font-size: 14px;
+    font-family: 'BrandonGrotesque-Regular';
+    width: 70px;
+    height: 20px;
+    left: 97px;
+    top: 57px;
+    color: white;
+
+}

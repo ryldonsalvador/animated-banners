@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #fff;
+	margin: 0 auto;
+	padding: 0;
+
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+	
+#main_div {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #fff;
+	width: 300px;
+	height: 250px;
+	/*height: 3700px;*/
+	padding: 0;
+	margin: 0;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	overflow: hidden;
+	display: none;
+	cursor: pointer;
+	/*background: url(300x400.jpg) #eeeeee no-repeat;*/
+}
+#img1,#img2,#img3,#img4{
+	position: absolute;
+	top: 0;left: 0;
+}
+#img2,#img3,#img4,#logoend,#img2_text,#img3_text{
+	position: absolute;
+	opacity: 0;
+}
+#logo,#logoend{
+	position: absolute;
+  	left: 191px;
+  	top: 11px;
+}
+#sign{
+  	position: absolute;
+}
+#cta{
+	position: absolute;
+	right: 0;
+	top: 190px;
+}
+#plane{
+	position: absolute;
+	left: -270px;
+}
+#orangeDiv{
+	position:absolute;
+	top:0;left: 0;
+	background-color: #ffa200;
+	width: 100%;height: 100%;
+	opacity: 0;
+}
+#whatareyou{
+	position: absolute;
+	opacity: 0;
+	left: 0;right: 0;bottom: 0;top: 0;margin: auto;
+}
+#warmculture{
+	position: absolute;
+	opacity: 0;
+  	right: 10px;
+  	bottom:10px;
+}
+
+
