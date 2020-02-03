@@ -17,17 +17,17 @@ function animate () {
 
     tl.to($('#sign'),.5,{x:3,ease: Power2.easeOut})
     .to($('#cta'),.5,{delay:.5,opacity:1,display:"block",ease: Power2.easeOut})
-    // .to($('#plane'),2,{delay:.5,x:400,y:-650,ease: Power2.easeOut})
-    // .to($('#orangeDiv'),.5,{opacity:1,ease: Power2.easeOut}, "-=1.5")
-    // .to($('#whatareyou'),.5,{opacity:1,ease: Power2.easeOut}, "-=1")
-    // .to($('#img2'),.5,{opacity:1,ease: Power2.easeOut}, "+=1")
-    // .to($('#img2_text'),.5,{opacity:1,ease: Power2.easeOut}, "-=.5")
-    // .to($('#img3'),.5,{opacity:1,ease: Power2.easeOut}, "+=1")
-    // .to($('#img3_text'),.5,{opacity:1,ease: Power2.easeOut}, "-=.5")
-    // .to($('#img4'),.5,{opacity:1,ease: Power2.easeOut}, "+=1")
-    // .to($('#warmculture'),.5,{opacity:1,ease: Power2.easeOut}, "-=.5")
-    // .to($('#warmculture'),.5,{opacity:0,delay:1,ease: Power2.easeOut})
-    // .to($('#logoend'),.5,{opacity:1,ease: Power2.easeOut,onComplete:loopAnim})
+    .to($('#plane'),2,{delay:.5,x:400,y:-650,ease: Power2.easeOut})
+    .to($('#orangeDiv'),.5,{opacity:1,ease: Power2.easeOut}, "-=1.5")
+    .to($('#whatareyou'),.5,{opacity:1,ease: Power2.easeOut}, "-=1")
+    .to($('#img2'),.5,{opacity:1,ease: Power2.easeOut}, "+=1")
+    .to($('#img2_text'),.5,{opacity:1,ease: Power2.easeOut}, "-=.5")
+    .to($('#img3'),.5,{opacity:1,ease: Power2.easeOut}, "+=1")
+    .to($('#img3_text'),.5,{opacity:1,ease: Power2.easeOut}, "-=.5")
+    .to($('#img4'),.5,{opacity:1,ease: Power2.easeOut}, "+=1")
+    .to($('#warmculture'),.5,{opacity:1,ease: Power2.easeOut}, "-=.5")
+    .to($('#warmculture'),.5,{opacity:0,delay:1,ease: Power2.easeOut})
+    .to($('#logoend'),.5,{opacity:1,ease: Power2.easeOut,onComplete:loopAnim})
 }
 
 function loopAnim(){
